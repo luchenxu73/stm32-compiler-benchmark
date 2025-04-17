@@ -77,7 +77,7 @@ typedef clock_t CORE_TICKS;
 #endif
 #ifndef COMPILER_FLAGS
 #define COMPILER_FLAGS \
-    "0fast" /* "Please put compiler flags here (e.g. -o3)" */
+    "Ofast" /* "Please put compiler flags here (e.g. -o3)" */
 #endif
 #ifndef MEM_LOCATION
 #define MEM_LOCATION "STACK"

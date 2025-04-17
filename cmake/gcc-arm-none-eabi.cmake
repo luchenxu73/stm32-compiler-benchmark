@@ -34,7 +34,7 @@ if (CMAKE_BUILD_TYPE MATCHES Debug)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -g3")
 endif ()
 if (CMAKE_BUILD_TYPE MATCHES Release)
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -g0")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Ofast -g0")
 endif ()
 
 set(CMAKE_ASM_FLAGS "${CMAKE_C_FLAGS} -x assembler-with-cpp -MMD -MP")

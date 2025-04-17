@@ -81,7 +81,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
-        ITERATIONS=4000
+        ITERATIONS=1000
 )
 
 # Add linked libraries
