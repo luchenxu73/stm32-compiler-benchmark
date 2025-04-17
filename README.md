@@ -31,7 +31,7 @@ MCU型号 stm32f401CDU6，参数如下：
 
 ### 分数结果
 
-> [!NOTE]结论
+> [!NOTE] 结论
 > Clang编译器得到的程序性能显著优于gcc编译器
 
 #### Overall
