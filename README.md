@@ -29,12 +29,12 @@ MCU型号 stm32f401CDU6，参数如下：
 | arm-none-eabi-gcc | 14.2.Rel1 |        -O0 -g3        |       -Ofast -g0        |
 |       clang       |  20.1.0   |        -O0 -g3        |    --config=Omax.cfg    |
 
-### 分数结果
+### Overall
 
 > [!NOTE]
 > 结论：Clang编译器得到的程序性能显著优于gcc编译器
 
-#### Overall
+Coremark 具体分数如下：
 
 | Compiler |  build  | Iteration |  Coremark  |
 | :------: | :-----: | :-------: | :--------: |
